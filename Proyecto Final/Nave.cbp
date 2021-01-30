@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Nave" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Nave" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/libaldat.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballd.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballd_s.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballeg.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballeg_s.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballp.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballp_s.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Nave" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/libaldat.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballd.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballd_s.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballeg.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballeg_s.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballp.a" />
+					<Add library="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/lib/Allegro/liballp_s.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="D:/Descargas de Aplicaciones G/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
